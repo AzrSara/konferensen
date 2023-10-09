@@ -3,15 +3,18 @@ body {
     font-family:'Tilt Neon', cursive;
     margin: 0;
     padding: 0;
+    background-image: url(images/web.webp);
+ background-color: #cccccc;
 }
 
 header {
-    background-color: #657bbf;
+    background-color: #6f84c3;
     color: #fff;
     padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-shadow: 2px 2px 8px #302d2d;
 }
 
 nav ul {
@@ -36,8 +39,9 @@ nav a {
 	font-family:'Tilt Neon', cursive;
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+   border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(139, 134, 132);
+    
 }
 
 #om, #schema,#registrera,#mat,#plats,#kontakt h2 {
