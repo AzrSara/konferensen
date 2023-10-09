@@ -1,0 +1,60 @@
+
+body {
+    font-family:'Tilt Neon', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #657bbf;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4ac32c;
+    font-weight: bold;
+}
+
+#om,#schema,#registrera,#mat,#plats,#kontakt{
+    background-color: #e4f3d2;
+	font-family:'Tilt Neon', cursive;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#om, #schema,#registrera,#mat,#plats,#kontakt h2 {
+    font-size: 24px;
+    color: #746c6c;
+    margin-bottom: 10px;
+}
+
+#om, #schema,#registrera,#mat,#plats,#kontakt p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #903131;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
