@@ -1,5 +1,6 @@
 
 body {
+   
     font-family:'Tilt Neon', cursive;
     margin: 0;
     padding: 0;
@@ -35,13 +36,19 @@ nav a {
 }
 
 #om,#schema,#registrera,#mat,#plats,#kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #e4f3d2;
 	font-family:'Tilt Neon', cursive;
-    padding: 20px;
+    padding: 60px;
     margin: 20px 0;
-   border-radius: 5px;
+    border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(139, 134, 132);
     
+
+
 }
 
 #om, #schema,#registrera,#mat,#plats,#kontakt h2 {
