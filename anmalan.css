@@ -45,3 +45,24 @@ button{
 	width: 70px;
 box-shadow: 2px 2px 2px gray;
 }
+
+form #förnamn {
+    margin-left: 15px;
+
+}
+form #Email {
+    margin-left: 3em;
+}
+form #Adress {
+    margin-left: 2em;
+}
+form #Stad {
+    margin-left: 3em;
+}
+#vegetarisk {
+    margin-right: 4em;
+}
+
+form #allergier {
+    margin-left: 1em;
+}
