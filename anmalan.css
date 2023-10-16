@@ -7,13 +7,14 @@ body {
 }
 
 header {
-    background-color: #6f84c3;
+    background-color:#6f84c3;
     color: #fff;
     padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-shadow: 2px 2px 8px #302d2d;
+
 }
 
 
@@ -28,6 +29,7 @@ section {
 	margin: 2em;
 	line-height: 2;
 	color: #3f3f42;
+    
 	 }
 
 
@@ -41,28 +43,38 @@ input:invalid {
 	border-right: 7px solid rgb(207, 108, 108);
 }
 
-button{
+button {
 	width: 70px;
-box-shadow: 2px 2px 2px gray;
+      box-shadow: 2px 2px 2px gray;
+       border-radius: 25px;
 }
 
 form #förnamn {
     margin-left: 15px;
+    
 
 }
+
+
 form #Email {
     margin-left: 3em;
+   
+    
 }
 form #Adress {
     margin-left: 2em;
+    
 }
 form #Stad {
     margin-left: 3em;
+    
 }
 #vegetarisk {
     margin-right: 4em;
+
 }
 
 form #allergier {
     margin-left: 1em;
+    
 }
