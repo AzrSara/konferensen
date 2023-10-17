@@ -26,118 +26,88 @@
 
 			
 			<h2> Information om dig:</h2>
-			<form> 
-				<div>
-				<label for="namn">Förnamn: </label>
-				<input type="text" id="förnamn" name="förnamn" placeholder="Förnamn" required minlength="2" maxlength="15"/>
-               </div>
-				
-			
-				
-			
-               <div>
-				<label for="Efternamn">Efternamn: </label>
-				<input type="text" id="efternamn" name="efternamn" placeholder="Efternamn" required minlength="2" maxlength="20">
-			</div>
+			<div class="form-container">
+				<form action="#" method="post">
+					<div class="form-group">
+						<label for="name">Namn:</label>
+						<input type="text" id="name" name="name" required>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
 		
-			<div>
-				<label for="Email">Email: </label>
-				<input type="text" id="Email" name="Email" placeholder="Email" required minlength="10" maxlength="20">
-			</div>
+					<div class="form-group">
+						<label for="lastname">Efternamn:</label>
+						<input type="text" id="lastname" name="lastname" required>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
 		
-			<div>
-				<label for="Adress">Adress: </label>
-				<input type="text" id="Adress" name="Adress" placeholder="Gatunamn och nummer" required minlength="4" maxlength="20">
+					<div class="form-group">
+						<label for="address">Adress:</label>
+						<input type="text" id="address" name="address" required>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
+		
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="text" id="email" name="email" required>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
+		
+					<div class="form-group">
+						<input type="submit" value="Skicka">
+					</div>
+				</form>
 			</div>
 			
-			<div>
-			<label for="Stad">Stad: </label>
-				<input type="text" id="Stad" name="Stad" placeholder="t.ex. Göteborg" required minlength="4" maxlength="10">
+			<div class="form-container">
+				<form action="#" method="post">
+					<div class="form-group">
+						<label for="food-type">Välj mat:</label>
+						<select id="food-type" name="food-type" required>
+							<option value="kott">Kött</option>
+							<option value="fisk">Fisk</option>
+							<option value="vegetarisk">Vegetarisk</option>
+						</select>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
+		
+					<div class="form-group">
+						<label for="allergies">Eventuella allergier:</label>
+						<textarea id="allergies" name="allergies" rows="4"></textarea>
+						<div class="error-message" role="alert" aria-live="assertive"></div>
+					</div>
+		
+					<div class="form-group">
+						<input type="submit" value="Skicka">
+					</div>
+					<div class="form-container">
+						<form action="#" method="post">
+							<div class="form-group">
+								<fieldset>
+									<legend>Val av seminarier:</legend>
+									<div>
+										<input type="checkbox" id="seminar1" name="seminar1" value="Framtidens Frontend">
+										<label for="seminar1"><strong>Fredag 20/10 kl.9.00</strong>: Framtidens Frontend</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar2" name="seminar2" value="Skapa Användarcentrerad Design med UX-metoder">
+										<label for="seminar2"><strong>Fredag 20/10 kl.10.00</strong>: Skapa Användarcentrerad Design med UX-metoder</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar3" name="seminar3" value="Webbtillgänglighet: Skapa för alla användare">
+										<label for="seminar3"><strong>Fredag 20/10 kl.11.00</strong>: Webbtillgänglighet: Skapa för alla användare</label>
+									</div>
+								</fieldset>
+							</div>
 				
+							
 				
-			</div>
-			
-			<div>
-				<h2>Mat:</h2>
-				<label for="Kött">Kött</label>
-				<input type="radio" name="Mat">
+							<div class="form-group">
+								<input type="submit" value="Skicka">
+							</div>
+						</form>
+					</div>
+
 				
-			</div>
-
-				<div>
-					<label for="fisk">Fisk</label>
-				<input type="radio" name="Mat">
-				</div>
-				
-				<div>
-					<label for="vegetarisk">Vegetarisk</label>
-				<input type="radio" name="Mat" id="vegetarisk">
-				</div>
-				<div>
-					<label for="allergier">Allergier: </label>
-					<input type="text" id="allergier" name="Adress" placeholder="Eventuella allergier" required minlength="4" maxlength="20">
-				</div>
-
-				<div>
-					<h3>Val av seminarier:</h3>
-					
-					<label for="Framtidens frontend"><strong>Fredag 20/10 kl.9.00</strong>: Framtidens Frontend</label>
-					<input type="radio" name="Framtidens Frontend">
-					
-					
-				</div>
-				<div>
-					<label for="Skapa Användarcentrerad Design med UX-metoder"><strong>Fredag 20/10 kl.10.00</strong>: Skapa Användarcentrerad Design med UX-metoder</label>
-					<input type="radio" name="Skapa Användarcentrerad Design med UX-metoder">
-				</div>
-
-				<div>
-					<label for="Webbtillgänglighet: Skapa för alla användare"><strong>Fredag 20/10 kl.11.00</strong>: Webbtillgänglighet: Skapa för alla användare</label>
-					<input type="radio" name="Webbtillgänglighet: Skapa för alla användare">
-				</div>
-
-				<div>
-					<label for="Responsiv Design: Optimering för alla enheter"><strong>Fredag 20/10 kl.12.00</strong>: Responsiv Design: Optimering för alla enheter</label>
-					<input type="radio" name="Responsiv Design: Optimering för alla enheter">
-				</div>
-
-				<div>
-					<label for="Säkerhet i Webbutveckling: Bästa Praxis"><strong>Lördag 21/10 kl.12.00</strong>: Säkerhet i Webbutveckling: Bästa Praxis</label>
-					<input type="radio" name="Säkerhet i Webbutveckling: Bästa Praxis">
-				</div>
-
-				<div>
-					<label for="Framsteg inom Web Performance: Snabbare Laddningstider"><strong>Lördag 21/10 kl.14.00</strong>: Framsteg inom Web Performance: Snabbare Laddningstider</label>
-					<input type="radio" name="Framsteg inom Web Performance: Snabbare Laddningstider">
-				</div>
-				<div>
-					<label for="Färgpsykologi och Webbdesign: Öka användarengagemang"><strong>Lördag 21/10 kl.15.00</strong>: Färgpsykologi och Webbdesign: Öka användarengagemang</label>
-					<input type="radio" name="Färgpsykologi och Webbdesign: Öka användarengagemang">
-				</div>
-
-				<div>
-					<label for="Progressiva Web Apps (PWA): Offline Tillgänglighet"><strong>Söndag 22/10 kl.12.00</strong>: Progressiva Web Apps (PWA): Offline Tillgänglighet</label>
-					<input type="radio" name="Progressiva Web Apps (PWA): Offline Tillgänglighet">
-				</div>
-
-				<div>
-					<label for="Hållbar Webbutveckling: Grönare Webbsidor"><strong>Söndag 22/10 kl.13.00</strong>: Hållbar Webbutveckling: Grönare Webbsidor</label>
-					<input type="radio" name="Hållbar Webbutveckling: Grönare Webbsidor">
-				</div>
-
-				<div>
-					<label for="AI och Maskininlärning i Webbutveckling"><strong>Söndag 22/10 kl.14.00</strong>: AI och Maskininlärning i Webbutveckling</label>
-					<input type="radio" name="AI och Maskininlärning i Webbutveckling">
-				</div>
-
-				<div>
-					<label for="Jag vill anmäla mig till alla Seminarier">Jag vill anmäla mig till alla Seminarier </label>
-					<input type="radio" name="Anmälan till alla seminarier">
-				</div>
-
-				<button type="button"> Skicka </button>
-
-
 			</form>
 
 			
