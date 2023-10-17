@@ -17,7 +17,23 @@ header {
 
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
 
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4ac32c;
+    font-weight: bold;
+    
+}
 
 
 
@@ -77,4 +93,11 @@ form #Stad {
 form #allergier {
     margin-left: 1em;
     
+}
+
+footer {
+    background-color: #be7474;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
 }
