@@ -3,7 +3,7 @@ body {
     font-family:'Tilt Neon', cursive;
     margin: 0;
     padding: 0;
-    background-color: #cccccc;
+    background-color: #bdbdc8;
 }
 
 header {
@@ -30,7 +30,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #4ac32c;
+    color: #3af50c;
     font-weight: bold;
     
 }
@@ -45,7 +45,8 @@ section {
 	margin: 2em;
 	line-height: 2;
 	color: #3f3f42;
-    
+    background-color: #858bad;
+    width: 400px;
 	 }
 
 
