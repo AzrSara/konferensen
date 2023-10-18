@@ -8,116 +8,122 @@
 </head>
 <body>
 	
-		<header>
-				 <h1>Välkommen till "Bättre Webb" Konferensen i Göteborg!</h1>
+	<header>
+			<h1>Välkommen till "Bättre Webb" Konferensen i Göteborg!</h1>
 
-				 <nav>
-					<ul>
-					  <li><a href="index.html">Information</a>
-					</li>
-					</ul>
-				</nav>
-		</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Information</a></li>
+				</ul>
+			</nav>
+	</header>
 
-		
+	<section class="form-section">
+		<h2>Information om dig:</h2>
+		<div class="form-container">
+			<form action="#" method="post">
+				<div class="form-group">
+					<label for="name">Namn:</label>
+					<input type="text" id="name" name="name" required>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
 
-		
-		<section>
+				<div class="form-group">
+					<label for="lastname">Efternamn:</label>
+					<input type="text" id="lastname" name="lastname" required>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
 
-			
-			<h2> Information om dig:</h2>
-			<div class="form-container">
-				<form action="#" method="post">
-					<div class="form-group">
-						<label for="name">Namn:</label>
-						<input type="text" id="name" name="name" required>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<label for="lastname">Efternamn:</label>
-						<input type="text" id="lastname" name="lastname" required>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<label for="address">Adress:</label>
-						<input type="text" id="address" name="address" required>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<label for="email">Email:</label>
-						<input type="text" id="email" name="email" required>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<input type="submit" value="Skicka">
-					</div>
-				</form>
-			</div>
-			
-			<div class="form-container">
-				<form action="#" method="post">
-					<div class="form-group">
-						<label for="food-type">Välj mat:</label>
-						<select id="food-type" name="food-type" required>
-							<option value="kott">Kött</option>
-							<option value="fisk">Fisk</option>
-							<option value="vegetarisk">Vegetarisk</option>
-						</select>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<label for="allergies">Eventuella allergier:</label>
-						<textarea id="allergies" name="allergies" rows="4"></textarea>
-						<div class="error-message" role="alert" aria-live="assertive"></div>
-					</div>
-		
-					<div class="form-group">
-						<input type="submit" value="Skicka">
-					</div>
-					<div class="form-container">
-						<form action="#" method="post">
-							<div class="form-group">
-								<fieldset>
-									<legend>Val av seminarier:</legend>
-									<div>
-										<input type="checkbox" id="seminar1" name="seminar1" value="Framtidens Frontend">
-										<label for="seminar1"><strong>Fredag 20/10 kl.9.00</strong>: Framtidens Frontend</label>
-									</div>
+				<div class="form-group">
+					<label for="address">Adress:</label>
+					<input type="text" id="address" name="address" required>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
+
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="text" id="email" name="email" required>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
+
+				<div class="form-group">
+					<label for="food-type">Välj mat:</label>
+					<select id="food-type" name="food-type" required>
+						<option value="" disabled selected hidden>Välj en maträtt</option>
+						<option value="kott">Kött</option>
+						<option value="fisk">Fisk</option>
+						<option value="vegetarisk">Vegetarisk</option>
+					</select>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
+
+				<div class="form-group">
+					<label for="allergies">Eventuella allergier:</label>
+					<textarea id="allergies" name="allergies" rows="4"></textarea>
+					<div class="error-message" role="alert" aria-live="assertive"></div>
+				</div>
+				
+				<div class="form-group">
+					<fieldset>
+						<legend>Val av seminarier:</legend>
+						<div>
+							<input type="checkbox" id="seminar1" name="seminar1" value="Framtidens Frontend">
+							<label for="seminar1">Fredag 20/10 kl.9.00: Framtidens Frontend</label>
+						</div>
 									<div>
 										<input type="checkbox" id="seminar2" name="seminar2" value="Skapa Användarcentrerad Design med UX-metoder">
-										<label for="seminar2"><strong>Fredag 20/10 kl.10.00</strong>: Skapa Användarcentrerad Design med UX-metoder</label>
+										<label for="seminar2">Fredag 20/10 kl.10.00: Skapa Användarcentrerad Design med UX-metoder</label>
 									</div>
 									<div>
 										<input type="checkbox" id="seminar3" name="seminar3" value="Webbtillgänglighet: Skapa för alla användare">
-										<label for="seminar3"><strong>Fredag 20/10 kl.11.00</strong>: Webbtillgänglighet: Skapa för alla användare</label>
+										<label for="seminar3">Fredag 20/10 kl.11.00: Webbtillgänglighet: Skapa för alla användare</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar4" name="seminar4" value="Responsiv Design: Optimering för alla enheter">
+										<label for="seminar4">Lördag 21/10 kl.10.00: Responsiv Design: Optimering för alla enheter</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar5" name="seminar5" value="Säkerhet i Webbutveckling: Bästa Praxis">
+										<label for="seminar5">Lördag 21/10 kl.11.00: Säkerhet i Webbutveckling: Bästa Praxis</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar6" name="seminar6" value="Framsteg inom Web Performance: Snabbare Laddningstider">
+										<label for="seminar6">Lördag 21/10 kl.12.00: Framsteg inom Web Performance: Snabbare Laddningstider</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar7" name="seminar7" value="Färgpsykologi och Webbdesign: Öka användarengagemang">
+										<label for="seminar7">Söndag 22/10 kl.12.00: Färgpsykologi och Webbdesign: Öka användarengagemang</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar8" name="seminar8" value="Progressiva Web Apps (PWA): Offline Tillgänglighet">
+										<label for="seminar8">Söndag 22/10 kl.13.00: Progressiva Web Apps (PWA): Offline Tillgänglighet</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar9" name="seminar9" value="Hållbar Webbutveckling: Grönare Webbsidor">
+										<label for="seminar9">Söndag 22/10 kl.14.00: Hållbar Webbutveckling: Grönare Webbsidor</label>
+									</div>
+									<div>
+										<input type="checkbox" id="seminar10" name="seminar10" value="AI och Maskininlärning i Webbutveckling">
+										<label for="seminar10">Söndag 22/10 kl.15.00: AI och Maskininlärning i Webbutveckling</label>
+									</div>
+									<div>
+										<input type="checkbox" id="alla-seminar" name="alla-seminar" value="alla seminar">
+										<label for="alla-seminar">Alla seminarier</label>
 									</div>
 								</fieldset>
 							</div>
-				
-							
-				
+			
 							<div class="form-group">
-								<input type="submit" value="Skicka">
+								<button type="submit">Skicka</button>
 							</div>
 						</form>
 					</div>
-
-				
-			</form>
-
+				</section>
 			
-
-
-		</section>
-		<footer>
-			<p>&copy; 2023 Bättre Webb Konferens</p>
-		</footer>
-</body>
-</html>
+				<footer>
+					<p>&copy; 2023 Bättre Webb Konferens</p>
+				</footer>
+			</body>
+			</html>
 
 

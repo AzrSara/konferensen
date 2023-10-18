@@ -38,122 +38,61 @@ nav a {
 
 
 
-section { 
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	margin: 2em;
-	line-height: 2;
-	color: #3f3f42;
+.form-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2em;
+    line-height: 2;
+    color: #3f3f42;
     background-color: #858bad;
     width: 400px;
-	 }
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
 
 
 
 
-     .form-container {
-        max-width: 400px;
-        margin: 50px auto;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-    .form-group label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .form-group input[type="text"] {
-        width: calc(100% - 20px);
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-    }
-
-    .form-group input[type="submit"] {
-        width: 100%;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-        background-color: #4CAF50;
-        color: #fff;
-        cursor: pointer;
-    }
-
-    .form-group input[type="submit"]:hover {
-        background-color: #45a049;
-    }
-
-    .error-message {
-        color: red;
-        margin-top: 5px;
-    }
-    .form-container {
-        max-width: 500px;
-        margin: 50px auto;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        font-family: Arial, sans-serif;
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-    .form-group label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .form-group input[type="radio"] {
-        margin-right: 10px;
-    }
-
-    .form-group textarea {
-        width: calc(100% - 20px);
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-        margin-top: 5px;
-        resize: vertical;
-    }
-
-    .form-group input[type="submit"] {
-        width: 100%;
-        padding: 10px;
-        border-radius: 5px;
-        border: 1px solid #ddd;
-        background-color: #4CAF50;
-        color: #fff;
-        cursor: pointer;
-        margin-top: 20px;
-    }
-
-    .form-group input[type="submit"]:hover {
-        background-color: #45a049;
-    }
-
-    .error-message {
-        color: red;
-        margin-top: 5px;
-    }
-
-    fieldset {
-        border: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    fieldset legend {
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
+footer {
+    background-color: #8474be;
+    color: #100f0f;
+    text-align: center;
+    padding: 5px 0;
+}
