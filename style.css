@@ -4,11 +4,12 @@ body {
     font-family:'Tilt Neon', cursive;
     margin: 0;
     padding: 0;
-    background-color: #a4afd0;
+    background-image: url(bilder/bild\ på\ en\ dator\ med\ code.jpg);
+
 }
 
 header {
-    background-color: #45928c;
+    background-color: #25125c;
     color: #d3dade;
     padding: 25px;
     display: flex;
@@ -47,7 +48,7 @@ section{
 	font-family:'Tilt Neon', cursive;
     padding: 60px;
     margin: 20px 0;
-    
+    box-shadow: 10px 10px 10px rgb(95, 92, 92);
  
     
 }

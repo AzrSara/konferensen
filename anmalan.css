@@ -3,11 +3,11 @@ body {
     font-family:'Tilt Neon', cursive;
     margin: 0;
     padding: 0;
-    background-color: #bdbdc8;
+    background-image: url(bilder/artificial-intelligence\ bild.jpg);
 }
 
 header {
-    background-color: #45928c;
+    background-color: #25125c;
     color: #d3dade;
     padding: 25px;
     display: flex;
@@ -41,20 +41,22 @@ nav a {
 .form-section {
     display: flex;
     flex-direction: column;
-    text-align: center;
+   text-align: center;
     margin: 2em;
     line-height: 2;
     color: #3f3f42;
     background-color: #858bad;
-    width: 400px;
+    width: 450px;
+   
 }
 
 .form-container {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #d4cfcf;
     border-radius: 5px;
+  
 }
 
 .form-group {
