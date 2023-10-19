@@ -4,16 +4,18 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(bilder/artificial-intelligence\ bild.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header {
-    background-color: #25125c;
+    background-color: #5f5b70;
     color: #d3dade;
     padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-shadow: 2px 2px 10px #272c29;
+    text-shadow: 6px 6px 10px #1f1f1f;
 
 }
 
